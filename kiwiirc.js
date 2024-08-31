@@ -11,7 +11,7 @@ function build_embed_src() {
 	const port = '8443';
 	const nick = 'ShowChat??';
 	const theme = 'osprey';
-	const chan = 'Romania,RadioClick,ShowChat';
+	const chan = 'Romania,#RadioClick,#ShowChat';
     // Get page URL information
     let url = new URL(window.location);
     // Construct the iframe src URL
