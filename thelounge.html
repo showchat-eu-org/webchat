@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ShowChat - TheLounge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="TheLounge chat cu camera web chat in direct - RomaniaChat - ShowChat - RadioClick">
+    <meta name="keywords" content="RomaniaChat, chat cu camera web, Chat, IRC, Webchat, WebIRC, KiwiIRC">
+    <meta name="author" content="www.ShowChat.eu.org">
+    <meta name="source" content="https://webchat.showchat.eu.org">
+
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script type="text/javascript" src="./thelounge.js" prefetch="true"></script>
+</head>
+<body>
+
+    <div id="chat">
+        <noscript>TREBUIE să aveți JavaScript activat pentru a utiliza această pagină. În caz contrar, nu va apărea nimic de valoare.</noscript>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('load', () => {
+            let embed = document.createElement('iframe');
+            embed.setAttribute('id', 'chat-iframe');
+            embed.setAttribute('frameborder', 0);
+            embed.setAttribute('src', build_embed_src());
+            document.getElementById('chat').appendChild(embed);
+        });
+    </script>
+</body>
+</html>
