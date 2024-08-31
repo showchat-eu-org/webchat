@@ -9,7 +9,7 @@ function build_embed_src() {
     const base_url = 'https://irc.romaniachat.eu';
 	const port = '9090';
 	const nick = 'RomaniaChat..';
-	const channels = 'Romania,RadioClick';
+	const channels = 'Romania,RadioClick,ShowChat';
 	const conect = '1';  /* 1 sau 0 */
 	const tema = 'd4'; /* d4 - MTE9MzY5cf */
 	
