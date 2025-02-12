@@ -6,7 +6,7 @@
 
 function build_embed_src() {
     // Variables
-    const base_url = 'https://irc.romaniachat.eu';
+    const base_url = 'https://kiwi.romaniachat.eu';
 	const port = '9090';
 	const nick = 'ShowChat..';
 	const channels = 'Romania,RadioClick,ShowChat';
