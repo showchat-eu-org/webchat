@@ -10,7 +10,7 @@ function build_embed_src() {
     const plugins = 'conference';
     const theme = 'osprey';
     const server_url = 'irc.romaniachat.eu';
-    const server_port = '6667';
+    const server_port = '7010';
     const chan = '#Romania,#RadioClick,#ShowChat';
     const nick = 'ShowChat??';
 	
